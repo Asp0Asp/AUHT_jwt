@@ -3,7 +3,7 @@
 
 # API de Registro de Usuários
 
-Esta é uma API simples para registro de usuários, usando Node.js, Express e MongoDB. Ela inclui rotas públicas e privadas para autenticação e busca de usuários.
+Esta é uma API simples para registro de usuários, usando Node.js, Express, JWT e MongoDB. Ela inclui rotas públicas e privadas para autenticação e busca de usuários.
 
 ## Pré-requisitos
 
@@ -32,7 +32,7 @@ Esta é uma API simples para registro de usuários, usando Node.js, Express e Mo
 
 4. Execute a aplicação:
    ```
-   npm start
+   npm run dev
    ```
 
 ## Rotas
