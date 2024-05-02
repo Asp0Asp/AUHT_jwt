@@ -1,6 +1,4 @@
 # AUHT_jwt
-Claro! Vou criar um exemplo de README para você com base nos scripts melhorados. Você pode personalizá-lo conforme necessário para o seu projeto. Aqui está:
-
 ---
 
 # API de Registro de Usuários
