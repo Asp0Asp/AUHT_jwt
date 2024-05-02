@@ -1,6 +1,5 @@
 /* importações dependÊcias*/
 
-
 require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
@@ -9,18 +8,17 @@ const jwt = require("jsonwebtoken");
 
 const app = express();
 
-// Modelos
 const User = require("./models/User");
 
 // Configuração da resposta JSON
 app.use(express.json());
 
-// Rota pública
+// Route pública
 app.get("/", (req, res) => {
   res.status(200).json({ msg: "Bem-vindo à API!" });
 });
 
-// Rota privada
+// Route privada
 app.get("/user/:id", checkToken, async (req, res) => {
   const id = req.params.id;
 
